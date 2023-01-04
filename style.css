@@ -1,0 +1,68 @@
+/* Google font added */
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+header > h1 {
+  font-size: 50px;
+  margin: 10px;
+  text-align: center;
+  transition: 300ms;
+}
+header > h1:hover {
+  color: blue;
+}
+
+.box-conteiner {
+  padding: 15px;
+  border-radius: 5px;
+  width: 90%;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 10px 10px 30px gray;
+}
+.boxes {
+  /* height: 500px; */
+  display: grid;
+  grid-gap: 15px;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+}
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 1px 1px 10px lightgray;
+}
+.box-1 {
+  background-color: antiquewhite;
+  grid-row: 1/2;
+}
+.box-2 {
+  background-color: antiquewhite;
+  grid-row: 2/4;
+}
+.box-3 {
+  grid-column: 2/5;
+  grid-row: 1/4;
+  background-color: rgb(101, 199, 255);
+}
+.box-4 {
+  background-color: rgb(136, 235, 235);
+  grid-row: 4/6;
+}
+.box-5 {
+  background-color: rgb(255, 197, 156);
+  grid-column: 2/4;
+  grid-row: 4/6;
+}
+.box-6 {
+  background-color: rgb(255, 153, 153);
+}
+.box-7 {
+  background-color: rgb(250, 235, 149);
+}
